@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Jadeed.Data.Entities;
 
-public class Subject_mark
+public class SubjectMark
 {
     public long StudentDetailId { get; set; }
     //public StudentDetails StudentDetails { get; set; }
