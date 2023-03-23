@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Jadeed.Domain.Entities
+namespace Jadeed.Domain.Entities;
+
+public class TeacherDetail
 {
-    internal class TeacherDetail
-    {
-    }
 }

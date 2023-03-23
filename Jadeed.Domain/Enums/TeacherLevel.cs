@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Jadeed.Domain.Enums
-{
-    internal class TeacherLevel
-    {
-    }
+namespace Jadeed.Domain.Enums;
+
+public enum TeacherLevel : byte
+{ 
 }

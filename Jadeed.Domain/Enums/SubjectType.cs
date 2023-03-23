@@ -6,6 +6,6 @@ using System.Threading.Tasks;
 
 namespace Jadeed.Domain.Enums;
 
-public enum SubjectType
+public enum SubjectType : byte
 {
 }
