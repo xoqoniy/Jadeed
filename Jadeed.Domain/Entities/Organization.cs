@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Jadeed.Domain.Entities
 {
-    internal class Organization
+    public class Organization
     {
     }
 }
