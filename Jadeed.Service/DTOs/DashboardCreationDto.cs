@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Jadeed.Domain.Enums
+namespace Jadeed.Service.DTOs
 {
-    public enum SubjectLevel
+    internal class DashboardCreationDto
     {
     }
 }
