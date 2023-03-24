@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Jadeed.Domain.Commons;
+using Jadeed.Domain.Enums;
 
-namespace Jadeed.Domain.Entities
+namespace Jadeed.Domain.Entities;
+
+public class TeacherDetail:Auditable
 {
-    internal class TeacherDetail
-    {
-    }
+    public long GradeId { get; set; }
+    public Grade Grade { get; set; }
+    public int Experience { get; set; }
+    public decimal Salary { get; set; }
+    public SubjectType Type { get; set; }
+    public TeacherLevel Level { get; set; }
+    public string Description { get; set; }
+
 }
