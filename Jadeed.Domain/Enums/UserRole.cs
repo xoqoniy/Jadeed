@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Jadeed.Domain.Enums
 {
-    enum UserRole
+   public enum UserRole
     {
     }
 }
