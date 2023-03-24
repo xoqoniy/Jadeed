@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <ProjectReference Include="..\Jadeed.Domain\Jadeed.Domain.csproj" />
   </ItemGroup>
 
