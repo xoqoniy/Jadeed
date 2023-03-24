@@ -10,4 +10,8 @@
     <Folder Include="NewFolder\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Jadeed.Domain\Jadeed.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
