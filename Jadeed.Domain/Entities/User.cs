@@ -16,5 +16,4 @@ public class User:Auditable
     public StudentDetail StudentDetail { get; set; }
     public long? TeacherDetailId { get; set; }
     public TeacherDetail TeacherDetail { get; set; }
-    
 }

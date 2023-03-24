@@ -4,10 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Jadeed.Domain.Entities
-{
-    public class Address
-    {
+namespace Jadeed.Domain.Entities;
 
-    }
+public class Address
+{
 }

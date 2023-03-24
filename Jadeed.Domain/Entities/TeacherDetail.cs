@@ -12,5 +12,4 @@ public class TeacherDetail:Auditable
     public SubjectType Type { get; set; }
     public TeacherLevel Level { get; set; }
     public string Description { get; set; }
-
 }
