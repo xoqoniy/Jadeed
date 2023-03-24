@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Jadeed.Domain.Commons;
 
 namespace Jadeed.Domain.Entities;
 
-public class StudentDetail
+public class StudentDetail:Auditable
 {
+    public long? GradeId { get; set; }
+    public Grade Grade { get; set; }
+    public long ParentId { get; set; }
 }
