@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Jadeed.Domain.Enums
 {
-    internal class TeacherLevel
+    public class TeacherLevel
     {
     }
 }

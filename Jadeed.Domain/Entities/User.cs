@@ -1,12 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Jadeed.Domain.Commons;
+using Jadeed.Domain.Enums;
 
-namespace Jadeed.Domain.Entities
+namespace Jadeed.Domain.Entities;
+
+public class User:Auditable
 {
-    internal class User
-    {
-    }
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public DateTime DateOfTime { get; set; }
+    public UserRole Role { get; set; }
+    public long AddressId { get; set; }
+    public Address Address { get; set; }
+    public string Phone { get; set; }
+    public long? StudentDetailId { get; set; }
+    public StudentDetail StudentDetail { get; set; }
+    public long? TeacherDetailId { get; set; }
+    public TeacherDetail TeacherDetail { get; set; }
+    
 }
