@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Jadeed.Domain.Commons;
 
 namespace Jadeed.Domain.Entities;
 
-public class Library
+public class Library : Auditable
 {
+    public ICollection<Book> Books { get; set; }
+    public string WorkingDay { get; set; }
+    public string WorkingHour { get; set; }
 }
